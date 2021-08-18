@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mapquest:common-core:1.5.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06cfbd47b3aef61ad6293b8d26bf92f9/jetified-common-core-1.5.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06cfbd47b3aef61ad6293b8d26bf92f9/jetified-common-core-1.5.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06cfbd47b3aef61ad6293b8d26bf92f9/jetified-common-core-1.5.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
