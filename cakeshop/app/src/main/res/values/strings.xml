@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">cakeshop</string>
+    
+    <string-array name="shapes">
+        <item>Square</item>
+        <item>Circle</item>
+        <item>Heart</item>
+    </string-array>
+
+    <string-array name="flavours">
+        <item>Chocolate</item>
+        <item>Mocha</item>
+        <item>Ube</item>
+        <item>Icing ra tanan</item>
+    </string-array>
+
+    <string-array name="sizes">
+        <item>5" x 10cm</item>
+        <item>7" x 17cm</item>
+        <item>9" x 22cm</item>
+        <item>11" x 27cm</item>
+    </string-array>
+
+    <string-array name="payment_method">
+        <item>Pay on pickup</item>
+        <item>Cash on delivery</item>
+    </string-array>
+
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_vendor_order">vendor_order</string>
+</resources>

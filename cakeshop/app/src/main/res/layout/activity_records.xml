@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/canvas"
+    tools:context=".Records">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee"
+        android:elevation="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/mmyygroup"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/lblMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:gravity="center|left"
+                android:padding="5dp"
+                android:text="Month:"
+                android:textColor="#000000"
+                android:textSize="20dp"/>
+
+            <Spinner
+                android:id="@+id/selectMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/lblYear"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:gravity="center|left"
+                android:padding="5dp"
+                android:text="Year:"
+                android:textSize="20dp"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/selectYear"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/revenueGroup"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/revenueLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:gravity="center|left"
+                android:padding="5dp"
+                android:text="Revenue:"
+                android:textSize="20dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/revenueValue"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="0.00"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/recordList"
+        android:layout_width="match_parent"
+
+        android:layout_height="581dp" />
+
+</LinearLayout>

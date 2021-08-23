@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cakeshop">
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+		android:theme="@style/Theme.AppCompat.NoActionBar">
+	<activity android:name=".Records" android:screenOrientation="portrait"/>
+	<activity android:name=".activity_verify_viewer" android:screenOrientation="portrait"/>
+	<activity android:name=".RegistrationMenu" android:screenOrientation="portrait"/>
+	<activity android:name=".RegistrationForm" android:screenOrientation="portrait"/>
+	<activity android:name=".VendorRegistrationForm" android:screenOrientation="portrait"/>
+	<activity android:name=".UserHomeMenu" android:screenOrientation="portrait"/>
+	<activity android:name=".CreateYourCake" android:screenOrientation="portrait"/>
+	<activity android:name=".CreatedCakeViewer" android:screenOrientation="portrait"/>
+	<activity android:name=".RecommendedList" android:screenOrientation="portrait"/>
+	<activity android:name=".Transaction_new" android:screenOrientation="portrait"/>
+	<activity android:name=".TransactionViewer" android:screenOrientation="portrait"/>
+	<activity android:name=".MapSearch" android:screenOrientation="portrait"/>
+	<activity android:name=".VendorStore" android:screenOrientation="portrait"/>
+	<activity android:name=".VendorHomeMenu" android:screenOrientation="portrait"/>
+	<activity android:name=".VendorOrders_Queue_Verify" android:screenOrientation="portrait"/>
+	<activity android:name=".ProductAdder" android:screenOrientation="portrait"/>
+	<activity android:name=".ProductViewer" android:screenOrientation="portrait"/>
+	<activity android:name=".OrderViewer" android:screenOrientation="portrait"/>
+	<activity android:name=".Accepted_Order_Viewer" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+
